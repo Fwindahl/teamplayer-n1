@@ -1,0 +1,32 @@
+/* .body {
+	background: url(image/pattern-background-desktop.svg);
+} */
+
+.body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 39rem;
+	width: 28rem;
+	background: #fff;
+	border-radius: 10px;
+}
+.top-images {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.dancing-hero {
+	object-fit: contain;
+	border-radius: 10px 10px 0 0;
+}
